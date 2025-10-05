@@ -1,0 +1,16 @@
+{
+    "upscale_settings": {
+        "model_name": "realesr-general-x4v3",
+        "denoise_strength": 0.5,
+        "upscale_factor": 4,
+        "face_enhancement": true
+    },
+    "ssh_settings": {
+        "port": 22,
+        "timeout": 300
+    },
+    "processing_settings": {
+        "temp_dir": "/tmp/upscale_temp",
+        "max_workers": 4
+    }
+}
